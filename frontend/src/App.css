@@ -1,7 +1,4 @@
 
-
-
-
 html,
 body,
 #root {
@@ -36,7 +33,6 @@ main .left {
   flex-direction: column;
 }
 
-
 .left .code {
   flex: 1;
   min-height: 0;
@@ -70,6 +66,37 @@ main .left {
   background: transparent !important;
   color: transparent !important;
   caret-color: white !important; 
+}
+
+
+.left .code textarea::placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+  font-style: italic;
+}
+
+.left .code textarea::-webkit-input-placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+  font-style: italic;
+}
+
+.left .code textarea::-moz-placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+  font-style: italic;
+}
+
+.left .code textarea:-ms-input-placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+  font-style: italic;
+}
+
+.left .code textarea:-moz-placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+  font-style: italic;
 }
 
 
