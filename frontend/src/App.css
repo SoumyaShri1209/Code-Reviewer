@@ -58,11 +58,13 @@ main .left{
 }
 
 main .right{
-  background-color: #5d5c5c;
+  background-color: #595858;
   padding: 1rem 1rem;
   font-size: 1.1rem;
   overflow: auto;
    box-sizing: border-box;
+   font-weight: bold;
+   
 }
 
 
