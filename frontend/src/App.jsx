@@ -53,7 +53,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        `${process.env.host}/ai/get-review`,
+        `${process.env.VITE_API_URL}/ai/get-review`,
         { code }
       );
       
